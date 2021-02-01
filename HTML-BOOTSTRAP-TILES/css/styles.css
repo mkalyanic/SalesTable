@@ -1,0 +1,79 @@
+.logo img, 
+.logo .caption {
+    display: inline;
+}
+
+.logo img {
+    height: 20px;
+    width: auto;
+    margin-top: -7px;
+
+}
+
+.caption{
+    font-size: 12px;
+    color: white;
+}
+
+.navbar-toggler-icon{
+    width: 1em;
+    height: 1em;
+}
+
+.navbar-toggler{
+    font-size: 1rem;
+}
+
+.navbar-dark .navbar-toggler{
+    border: 1px solid #343a40;
+}
+
+.navbar-nav{
+    flex-direction: row;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+
+.detail{
+    font-size: 11px;
+    color: rgb(58, 58, 58);
+    font-weight: 400;
+}
+
+.task .box{
+    background-color: #FFF;
+    padding: 20px;
+    border: 1px solid #eeeeee;
+}
+
+.platform .box{
+    padding: 20px;
+    border: 1px solid #eeeeee;
+}
+
+
+.text-link{
+    font-size: 10px;
+}
+
+.banner_bg_main{
+    width: 100%;
+    float: left;
+    background-image: url(../images/sunrise.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
